@@ -34,3 +34,11 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Download From System
+*.html
+
+# LaTeX Composing File
+*.synctex.gz
+*.aux
+*.log

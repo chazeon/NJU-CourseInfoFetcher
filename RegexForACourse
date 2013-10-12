@@ -1,0 +1,39 @@
+<tr\ .*\s*.*\s*>
+\s*
+<td\ align=\"center\"\ valign=\"middle\">
+(\d{8,8}\D?)					# course number
+</td>
+\s*
+<td\ valign=\"middle\">
+(\D+)						# course name
+</td>
+\s*
+<td\ align=\"center\"\ valign=\"middle\">
+(\D+)						# of what kind
+</td>
+\s*
+<td\ align=\"center\"\ valign=\"middle\">
+(\D+)						# who is able to take
+</td>
+\s*
+<td\ align=\"center\"\ valign=\"middle\">
+(\d+.\d)					# points
+</td>
+\s*
+<td\ align=\"center\"\ valign=\"middle\">
+(\d+)						# period
+</td>
+\s*
+<td\ align=\"center\"\ valign=\"middle\">
+(\D+)						# where
+</td>
+\s*
+<td\ valign=\"middle\">
+(.*)						# the teacher
+</td>
+\s*
+<td\ valign=\"middle\">
+(.*)						# time and place
+</td>
+\s*
+</tr>
